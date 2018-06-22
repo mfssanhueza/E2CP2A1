@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.primer_bloque{
+  background-image: url(images/bg.jpeg);
+  height: 500px;
+  color: white;
+  text-align: center;
+}
+.primer_bloque_a{
+  margin: 40px;
+}
+.primer_bloque h1, h3{
+  text-transform: uppercase;
+}
+.navbar{
+  height: 40px;
+}
+
+.navbar ul {
+  margin-right: 80px;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 30px;
+  text-align: right;
+  float: right;
+  color: #4d4c49fa;
+}
+
+#navbarlogo{
+  margin-top: 20px;
+  margin-left: 80px;
+  text-align: left;
+  height: 30px;
+  float: left;
+}
+.primer_bloque_a{
+  padding: 80px;
+  height: 50px;
+  text-align: center;
+  color: inherit;
+}
+
+.bluebottom, .greenbottom{
+  text-align: center;
+  margin: 6px;
+  border-radius: 10px;
+  width: 120px;
+  background-color: #3079b7;
+}
+.greenbottom{
+  background-color: #5bb95a;
+  width: 80px;
+}
+
+
+.segundo_bloque{
+  padding: 40px;
+}
+
+#feliz{
+  height:300px;
+}
+.tercer_bloque{
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-top: 2px;
+  border-top-style:solid;
+  border-color: #e5e5e5;
+
+}
+.cuarto_bloque{
+  display: flex;
+  flex-direction: wrap;
+  text-align: left;
+  padding: 5% 30% 5% 30%;
+
+}
+.cuarto_bloque_a, .cuarto_bloque_b{
+  margin: 10px;
+  flex-grow: 6;
+
+}
+.cuarto_bloque_a ul li{
+  list-style-type: none;
+  flex-grow: 6;
+  margin: 10px;
+}
+
+.quinto_bloque{
+  background-color: #1d1d1d;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  text-align: left;
+
+}
