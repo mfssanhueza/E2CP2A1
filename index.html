@@ -3,61 +3,94 @@
   <head>
     <meta charset="utf-8">
     <title>landing</title>
-    <link rel="stylesheet" href="desafio3.css">
+
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script type="text/javascript" src="jquery-3.3.1.js">
+
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="desafio3.css">
   </head>
   <body>
-    <div class="primer_bloque">
-      <div class="navbar">
-        <a href="desafio3.html"> <img src="images/latam_logo.png" alt="logo"  id="navbarlogo"> </a>
-        <ul>
-          <li>Contacto</li>
-          <li>Blog</li>
-          <li>Equipo</li>
-        </ul>
-      </div>
-      <div class="primer_bloque_a">
-        <h1>Comienza una nueva vida y
-          <br>únete al mundo
-          <br>tecnológico
-        </h1>
-      </div>
-          <button type="button" class="bluebottom">¡Comienza acá!</button>
-          <button type="button" class="greenbottom">Más info</button>
-        <p>Hay una escasez gigante de desarrolladores en el mundo y más aun en Latinoamérica, se necesitan más
-          <br>desarrolladores y !Tú puedes ser uno!</p>
+   <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="/home/maria/Documentos/proyecto-github/E2CP2A1/index.html">
+     <img src="images/logo.png" alt="logo" id="latam_logo">
+     </a>
     </div>
-    <div class="segundo_bloque">
-      <h3>El bootcamp de programación más grande de Latinoamérica</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img src="images/viewing-gallery-for-happy-people.png" alt="feliz" id="feliz">
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Equipo</a></li>
+      </ul>
     </div>
-    <div class="tercer_bloque">
-      <h3>Solicita información e inscríbete</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <button type="button" class="bluebottom">¡Inscríbete!</button>
-      <p>¡Vive la experiencia Desafío Latam!</p>
+  </nav>
+  <div class="primer_bloque">
+   <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1> Comienza una nueva vida y únete al mundo tecnológico </h1>
     </div>
-    <div class="cuarto_bloque">
-      <div class="cuarto_bloque_a">
-          <ul>
-            <li id="contacto">Contacto</li>
-            <li id="desafio_latam">Desafío Latam</li>
-            <li>Ezequías Alliende 2361</li>
-            <li>+56 9 5117 7975</li>
-            <br>
-            <li><a>inscripciones@desafiolatam.com</a></li>
-          </ul>
-      </div>
-        <div class="cuarto_bloque_b">
-          <h4>Suscríbete</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <input type="text" placeholder="ingresa tu correo acá" name="" value="">
-          <button type="button">Enviar</button>
-        </div>
-      </div>
+    <div class="col-md-4 col-md-offset-4 primer_bloque_b">
+      <button type="button" class="bluebottom">¡Comienza acá!</button>
+      <button type="button" class="greenbottom">Más info</button>
+      <p>Hay una escasez gigante de desarrolladores en el mundo y más aun en Latinoamérica, se necesitan más desarrolladores y !Tú puedes ser uno!</p>
     </div>
-    <div class="quinto_bloque">
-      <h3>DESAFIOLATAM 2018 - CURSO FULLSTACK G15</h3>
+  </div>
+ </div>
+ <div class="segundo_bloque">
+   <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+       <h3>El bootcamp de programación más grande de Latinoamérica</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <img src="images/viewing-gallery-for-happy-people.png" alt="feliz" id="feliz">
     </div>
+  </div>
+ </div>
+ <div class="jumbotron">
+   <h3>Solicita información e inscríbete</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   <button type="button" class="bluebottom">¡Inscríbete!</button>
+   <p>¡Vive la experiencia Desafío Latam!</p>
+ </div>
+ <div class="cuarto_bloque">
+   <div class="row">
+     <div class="col-md-3"></div>
+     <div class="col-md-3">
+       <ul>
+         <br>
+         <li>Contacto</li>
+         <li>Desafío Latam</li>
+         <li>Ezequías Alliende 2361</li>
+         <li>+56 9 5117 7975</li>
+         <li><a>inscripciones@desafiolatam.com</a></li>
+       </ul>
+     </div>
+     <div class="col-md-3">
+       <h4>Suscríbete</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+       <input type="text" placeholder="ingresa tu correo acá" name="" value="">
+       <button type="button">Enviar</button>
+     </div>
+   </div>
+  </div>
+  <div class="jumbotron footer">
+      <h3>Desafiolatam 2018 - Curso fullstack G15</h3>
+  </div>
   </body>
 </html>
