@@ -13,7 +13,7 @@ body {
 .primer_bloque{
   padding: 50px;
   background-image: url(images/bg.jpeg);
-  height: 80vh;
+  height: 135vh;
   color: white;
   text-align: center;
 }
@@ -24,7 +24,9 @@ h1, h3{
 .primer_bloque_b{
   margin-top: 50px;
 }
-
+.img-carousel{
+  max-height: 70vh;
+}
 .bluebottom, .greenbottom{
   text-align: center;
   margin: 6px;
